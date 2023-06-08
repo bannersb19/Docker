@@ -1,2 +1,4 @@
 # Docker
-Download Docker on Kali Deploy Docker Containers and Use Docker Compose 
+Download Docker on Kali Linux
+Deploy Docker Containers 
+Use Docker Compose 
