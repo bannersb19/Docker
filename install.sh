@@ -9,7 +9,7 @@ $ sudo apt-get install apt-transport-https ca-certificates curl gnupg lsb-releas
 $ sudo mkdir -p /etc/apt/keyrings
 
 4) Curl Command to download a GPG key from the docker website 
-$ curl -fsSL https://download.docker.com/linux/ubu... | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+$ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
 
 5) This command pulls down the architecture (amd=64) and the corresponding verison of the operating system, stores it in docker.list 
 $  echo \
